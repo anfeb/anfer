@@ -119,7 +119,7 @@ const kontol = 'BEGIN:VCARD\n'
             + 'END:VCARD'
 
 // APIKEY
-HunterApi = 'ikygans'
+HunterApi = 'Ikyy69'
 lolhuman = 'lolhuman'
 
 const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
@@ -289,7 +289,7 @@ module.exports = denz = async (denz, mek) => {
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-			denz.sendMessage(mek.key.remoteJid, `Hai\nMaaf sepertinya saat ini owner Yuzzu sedang *offline*\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik lalu\n\nSilahkan hubungi lagi setelah *10 menit*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fs.readFileSync('./denz.jpg'), surface: 200, message: fake, orderTitle: fake, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true }})
+			denz.sendMessage(mek.key.remoteJid, `Hai\nMaaf sepertinya saat ini owner sedang *offline*\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik lalu\n\nSilahkan hubungi lagi setelah *Beberapa saat Lagi*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fs.readFileSync('./denz.jpg'), surface: 200, message: fake, orderTitle: fake, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true }})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -302,7 +302,7 @@ module.exports = denz = async (denz, mek) => {
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-						denz.sendMessage(mek.key.remoteJid, `Hai\nMaaf sepertinya saat ini owner Yuzzu sedang *offline*\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik lalu\n\nSilahkan hubungi lagi setelah *10 menit*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fs.readFileSync('./denz.jpg'), surface: 200, message: fake, orderTitle: fake, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true }})
+						denz.sendMessage(mek.key.remoteJid, `Hai\nMaaf sepertinya saat ini owner Yuzzu sedang *offline*\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik lalu\n\nSilahkan hubungi lagi setelah *Beberapa Saat lagi*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fs.readFileSync('./denz.jpg'), surface: 200, message: fake, orderTitle: fake, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true }})
 					}
 				}
 						}
@@ -898,11 +898,7 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ▢ ${yuz}${prefix}restart${yuz}
 ▢ ${yuz}${prefix}join${yuz} 「 _link group_ 」
 ▢ ${yuz}${prefix}addrespon${yuz} 「 _tanya|jawab_ 」
-▢ ${yuz}${prefix}delrespon${yuz} 「 _nama_ 」
-
-「 _Ga Punya Apikey?_ 」
-▢Langsung ke ${yuz}${prefix}beliapi${yuz}
-▢Mau request fitur/bug ${yuz}${prefix}request${yuz} `
+▢ ${yuz}${prefix}delrespon${yuz} 「 _nama_ 」 `
 				denz.sendMessage(from, menuowner, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
 				break
 				case 'makermenu':
@@ -981,16 +977,11 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ▢ ${yuz}${prefix}fox${yuz}
 ▢ ${yuz}${prefix}t3d${yuz}
 ▢ ${yuz}${prefix}logoa${yuz}
-▢ ${yuz}${prefix}pornhub${yuz}
 ▢ ${yuz}${prefix}marvel${yuz}
 ▢ ${yuz}${prefix}leavest${yuz}
 ▢ ${yuz}${prefix}wall${yuz}
 ▢ ${yuz}${prefix}smoke${yuz}
-▢ ${yuz}${prefix}rainbow${yuz}
-
-「 _Ga Punya Apikey?_ 」
-▢Langsung ke ${yuz}${prefix}beliapi${yuz}
-▢Mau request fitur/bug ${yuz}${prefix}request${yuz} `
+▢ ${yuz}${prefix}rainbow${yuz} `
 				denz.sendMessage(from, menumaker, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
 				break
 				case 'downloadmenu':
@@ -1022,11 +1013,7 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ▢ ${yuz}${prefix}fancytext${yuz} 「 _teks_ 」
 ▢ ${yuz}${prefix}githubstalk${yuz} 「 _username_ 」
 ▢ ${yuz}${prefix}translate${yuz} 「 _kodebhs|teks_ 」
-▢ ${yuz}${prefix}ss${yuz} 「 _link_ 」
-
-「 _Ga Punya Apikey?_ 」
-▢Langsung ke ${yuz}${prefix}beliapi${yuz}
-▢Mau request fitur/bug ${yuz}${prefix}request${yuz} `
+▢ ${yuz}${prefix}ss${yuz} 「 _link_ 」 `
 				denz.sendMessage(from, menudownload, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
 				break
 				case 'groupmenu':
@@ -1063,11 +1050,7 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ▢ ${yuz}${prefix}linkgrup${yuz}
 ▢ ${yuz}${prefix}hidetag${yuz} 「 _teks_ 」
 ▢ ${yuz}${prefix}sticktag${yuz} 「 _nama sticker_ 」
-▢ ${yuz}${prefix}totag${yuz} 「 _reply media_ 」
-
-「 _Ga Punya Apikey?_ 」
-▢Langsung ke ${yuz}${prefix}beliapi${yuz}
-▢Mau request fitur/bug ${yuz}${prefix}request${yuz} `
+▢ ${yuz}${prefix}totag${yuz} 「 _reply media_ 」 `
 				denz.sendMessage(from, menugroup, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
 				break
                 case 'menu2':
@@ -1123,11 +1106,7 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ▢ ${yuz}${prefix}spam${yuz} 「 _teks|jumlah_ 」
 ▢ ${yuz}${prefix}tospam${yuz} 「 _reply audio/sticker/image|jumlah_ 」
 ▢ ${yuz}${prefix}sharelock${yuz} 「 _teks1|teks2_ 」
-▢ ${yuz}${prefix}ephemeral${yuz} 「 _teks_ 」
-
-「 _Ga Punya Apikey?_ 」
-▢Langsung ke ${yuz}${prefix}beliapi${yuz}
-▢Mau request fitur/bug ${yuz}${prefix}request${yuz} `
+▢ ${yuz}${prefix}ephemeral${yuz} 「 _teks_ 」 `
 				denz.sendMessage(from, menuother, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
 				break
 				case 'stickermenu':
@@ -1149,11 +1128,7 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ▢ ${yuz}${prefix}colong${yuz} 「 _reply sticker_ 」
 ▢ ${yuz}${prefix}dadu${yuz}
 ▢ ${yuz}${prefix}semoji${yuz} 「 _emoji_ 」
-▢ ${yuz}${prefix}attp${yuz} 「 _teks_ 」
-
-「 _Ga Punya Apikey?_ 」
-▢Langsung ke ${yuz}${prefix}beliapi${yuz}
-▢Mau request fitur/bug ${yuz}${prefix}request${yuz} `
+▢ ${yuz}${prefix}attp${yuz} 「 _teks_ 」 `
 				denz.sendMessage(from, menusticker, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
 				break
 //ANJING LU YANG UBAH THX SAMA DLL
@@ -1173,8 +1148,6 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ║-HAI ${pushname}!!
 ║╾ Nomor : @${sender.split('@')[0]}
 ║▬▭▬▭▬▭▬▭▬▭
-║╾ Creator : wa.me/628811929177
-║╾ Credit : wa.me/${tolol}
 ║╾ Owner : ${namaowner}
 ║╾ Owner Number : wa.me/${owner}
 ║╾ Status : ${publik ? 'Public' : 'Self'}
@@ -1188,16 +1161,16 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ╠══════════════════⎉
 ║-NO SPAM BOT-
 ║-NO CALL BOT-
-║-ANY QUESTION PLEASE-
-║-CONTACT OWNER-
+║-*Follow My IG*: ${Instagram1}
+║- *${instagram2}*
 ╠══════════════════⎉
 ╠═════⊱*「 ABOUT 」* 
 ║┏━━⊱
 ║┣❏ *${prefix}delete*
-║┣❏ *${prefix}owner*
-║┣❏ *${prefix}status*
+║┣❏ *${prefix}Owner*
+║┣❏ *${prefix}Status*
 ║┣❏ *${prefix}runtime*
-║┣❏ *${prefix}speed*
+║┣❏ *${prefix}Speed*
 ║┗━━⊱
 ╠═════⊱*「 LIST MENU 」* 
 ║┏━━⊱
@@ -1211,27 +1184,8 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ║┣❏ *${prefix}othermenu*
 ║┣❏ *${prefix}nsfwmenu*
 ║┣❏ *${prefix}soundmenu*
-║┗━━━━*《 ${namabot} 》*
-╠═════════════════❍
-║┣━━⊱*「 Thanks To 」* 
-║┃
-║┣❏ Denpa
-║┣❏ Hunter
-║┣❏ Yuzzu Kamiyaka
-║┣❏ Mhankbarbar
-║┣❏ Bot Indo
-║┣❏ ⛾ Coffee
-║┣❏ https://saweria.co/denisputra
-║┣❏ ✆ Report Bug
-║┣❏ https://wa.me/6285866295942
-║┣❏ ✇ Script Crew Bot
-║┣❏ https://github.com/dcode-denpa/crewbot
-║┣❏ ✆ Info Credit
-║┣❏ https://wa.me/${tolol}
-║┣❏ 「 _Mau Req Fitur?_ 」
-║┣❏ Mau request fitur/bug ${prefix}request
-║┗━━━━*《 ${namabot} 》*
-╚═════════════════❍ `
+║┗━━⊱
+╠━━━━*《 ${namabot} 》* `
 				denz.sendMessage(from, fcrew, image, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, caption: menusaya, contextInfo: { forwardingScore: 508, isForwarded: true}})
 				break
                 case 'randommenu':
@@ -1293,11 +1247,7 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ▢ ${yuz}${prefix}tebakgambar${yuz}
 ▢ ${yuz}${prefix}quotesnime${yuz}
 ▢ ${yuz}${prefix}lazimedia${yuz}
-▢ ${yuz}${prefix}covid${yuz}
-
-「 _Ga Punya Apikey?_ 」
-▢Langsung ke ${yuz}${prefix}beliapi${yuz}
-▢Mau request fitur/bug ${yuz}${prefix}request${yuz}`
+▢ ${yuz}${prefix}covid${yuz}`
 				denz.sendMessage(from, menurandom, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
 				break
 				case 'toolsmenu':
@@ -1320,49 +1270,9 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ▢ ${yuz}${prefix}balik${yuz} 「 _reply audio_ 」
 ▢ ${yuz}${prefix}gemuk${yuz} 「 _reply audio_ 」
 ▢ ${yuz}${prefix}detikvn${yuz} 「 _reply audio caption angka_ 」
-▢ ${yuz}${prefix}detikvideo${yuz} 「 _reply video caption angka_ 」
-
-「 _Ga Punya Apikey?_ 」
-▢Langsung ke ${yuz}${prefix}beliapi${yuz}
-▢Mau request fitur/bug ${yuz}${prefix}request${yuz} `
+▢ ${yuz}${prefix}detikvideo${yuz} 「 _reply video caption angka_ 」 `
 				denz.sendMessage(from, menutools, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
-				break
-                case 'nsfwmenu':
-				try {
-				             pporang = await denz.getProfilePicture(`${sender.split('@')[0]}@s.whatsapp.net`)
-				} catch {
-					          pporang = 'https://i.pinimg.com/originals/87/db/f5/87dbf52f353af29b2cbc3896b590c76c.jpg'
-				}
-				fcrew = await getBuffer(pporang)
-				var menutools = `▷\`\`\`Nama : ${pushname}\`\`\`
-▷\`\`\`Jam : ${jmn}\`\`\`
-▷\`\`\`Hari : ${week} ${weton}\`\`\`
-▷\`\`\`Tanggal : ${calender}\`\`\`
-
-▢ ${yuz}${prefix}nezuko${yuz}
-▢ ${yuz}${prefix}boruto${yuz}
-▢ ${yuz}${prefix}rimuru${yuz}
-▢ ${yuz}${prefix}eren${yuz}
-▢ ${yuz}${prefix}sagiri${yuz}
-▢ ${yuz}${prefix}eren${yuz}
-▢ ${yuz}${prefix}karakter${yuz} 「 _nama karakter anime_ 」
-▢ ${yuz}${prefix}linkbok3p${yuz} 「 _no vpn_ 」
-▢ ${yuz}${prefix}kodenuklir${yuz}
-▢ ${yuz}${prefix}nekopoi1${yuz} 「 _kayaknya perlu vpn_ 」
-▢ ${yuz}${prefix}nekopoi2${yuz} 「 _kayaknya perlu vpn_ 」
-▢ ${yuz}${prefix}nekopoi3${yuz} 「 _kayaknya perlu vpn_ 」
-▢ ${yuz}${prefix}nekopoi4${yuz} 「 _kayaknya perlu vpn_ 」
-▢ ${yuz}${prefix}nekopoi5${yuz} 「 _kayaknya perlu vpn_ 」
-▢ ${yuz}${prefix}nekopoi6${yuz} 「 _kayaknya perlu vpn_ 」
-▢ ${yuz}${prefix}nekopoi7${yuz} 「 _kayaknya perlu vpn_ 」
-▢ ${yuz}${prefix}nekopoi8${yuz} 「 _kayaknya perlu vpn_ 」
-▢ ${yuz}${prefix}nekopoi9${yuz} 「 _kayaknya perlu vpn_ 」
-
-「 _Ga Punya Apikey?_ 」
-▢Langsung ke ${yuz}${prefix}beliapi${yuz}
-▢Mau request fitur/bug ${yuz}${prefix}request${yuz}`
-				denz.sendMessage(from, menutools, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
-				break
+				break     
 				case 'soundmenu':
 				case 'menusound':
 				try {
@@ -1401,11 +1311,7 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ▢ ${yuz}${prefix}sound23${yuz}
 ▢ ${yuz}${prefix}sound24${yuz}
 ▢ ${yuz}${prefix}sound25${yuz}
-
-▢ ${yuz}${prefix}sound${yuz}
-「 _Ga Punya Apikey?_ 」
-▢Langsung ke ${yuz}${prefix}beliapi${yuz}
-▢Mau request fitur/bug ${yuz}${prefix}request${yuz} `
+▢ ${yuz}${prefix}sound${yuz} `
 				denz.sendMessage(from, menusound, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
 				break	
 				case 'translate':
@@ -1447,7 +1353,7 @@ case 'gcanime':
               if (!isGroup) return reply(mess.only.group)
               if (!isBotGroupAdmins) return reply(mess.only.Badmin)
               if (args.length < 1) return reply('NAMA GCNYA?')
-              reply('PROSES TOD')
+              reply('PROSES Kak!')
                 tessgc = await getBuffer(`https://i.pinimg.com/originals/69/0b/4a/690b4a2b92805976d284aa47bcee3a44.jpg`)
                    denz.updateProfilePicture (from, tessgc)
                    await sleep(1000)
@@ -1609,51 +1515,7 @@ if (Number(oi2) >= 50) return reply('Kebanyakan!')
 }
 	  break
 //NEKOPOI BY YUZZU KAMIYAKA
-                case 'linkbok3p':
-                novpn = `[ *API SC* ]\n`
-                    novpn += `➻ *NO VPN1* : bit.ly/2Qn9Qgu\n`
-                    novpn += `➻ *NO VPN2* : bit.ly/3gWaBt8\n`
-                    novpn += `➻ *XNXX VPN* : bit.ly/3vJZJ7n\n`
-                    reply(novpn)
-                    break
-                 case 'nekopoi1':
-                 try {
-				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
-				} catch {
-					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
-				}
-				fcrew = await getBuffer(pporang)
-                ini_buffer = await getBuffer("https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
-                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www2.zippyshare.com/d/z9dcY6Nr/791216/%5bNekoPoi%5d_Akina_to_Onsen_de_H_Shiyo%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
-                  break
-                 case 'nekopoi2':
-                 try {
-				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
-				} catch {
-					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
-				}
-				fcrew = await getBuffer(pporang)
-                ini_buffer = await getBuffer("https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
-                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www4.zippyshare.com/d/j7PFLGUY/946757/%5bNekoPoi%5d_Tsuma_ga_Kirei_ni_Natta_Wake_-_02_%5b360P%5d_%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
-                  break
-                 case 'nekopoi3':
-                 try {
-				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
-				} catch {
-					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
-				}
-				fcrew = await getBuffer(pporang)
-                ini_buffer = await getBuffer("https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
-                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www111.zippyshare.com/d/EK5uqIMh/566060/%5bNekoPoi%5d_Megane_no_Megami_-_01_%5b360P%5d_%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
-                  break
-                 case 'nekopoi4':
-                 try {
-				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
-				} catch {
-					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
-				}
-				fcrew = await getBuffer(pporang)
-                ini_buffer = await getBuffer("https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
+             https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
                 denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www109.zippyshare.com/d/2ebALhhS/463654/%5bNekoPoi%5d_Watashi_ga_Toriko_-_02%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
                   break
                  case 'nekopoi5':
@@ -2145,7 +2007,32 @@ case 'owner':
                     reply(anu1)
                     break
                   case 'pinterest2':  
-                   if (args.length < 1) return reply(`[❗] CONTOH??\n*${prefix}${command} https://link*`)
+                   if (args.length < 1) return reply(`[❗] CONhttps://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
+                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www109.zippyshare.com/d/2ebALhhS/463654/%5bNekoPoi%5d_Watashi_ga_Toriko_-_02%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
+                  break
+                 case 'nekopoi5':
+                 try {
+				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
+				} catch {
+					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
+				}
+				fcrew = await getBuffer(pporang)
+                ini_buffer = await getBuffer("https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
+                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www115.zippyshare.com/d/LmzOkRAI/313299/%5bNekoPoi%5d_Chichi-iro_Toiki_-_01_%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
+                  break
+                 case 'nekopoi6':
+                 try {
+				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
+				} catch {
+					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
+				}
+				fcrew = await getBuffer(pporang)
+                ini_buffer = await getBuffer("https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
+                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www89.zippyshare.com/d/SgEHvrJs/42812/%5bNekoPoi%5d_Chichi-iro_Toiki_-_02_%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
+                  break
+                 case 'nekopoi7':
+                 try {
+				             pporangTOH??\n*${prefix}${command} https://link*`)
                    reply(`WAIT KAK CANTIK/GANTENG`)
                    F = body.slice(11)
                    anu = await fetchJson(`https://docs-jojo.herokuapp.com/api/pinterest?url=${F}`)
