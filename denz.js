@@ -109,6 +109,8 @@ fake = 'anfebnBotz✓ '
 yuz = '```'
 owner = '6287772343860' //ganti pake no lu
 numbernye = '0'
+instagram1 = '@anfebn'
+instagram2 = 'https://instagram.com/anfebn'
 
 //JANGAN DI APA APAIN LAGI BODO
 const kontol = 'BEGIN:VCARD\n'  
@@ -1159,9 +1161,14 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ║    ${tampilUcapan}-${pushname}
 ║▬▭▬▭▬▭▬▭▬▭
 ╠══════════════════⎉
+║*Dirgahayu Republik*
+║*Indonesia 76th🇮🇩*
+║*Indonesia Tangguh*
+║*Indonesia Tumbuh*
+╠══════════════════⎉
 ║-NO SPAM BOT-
 ║-NO CALL BOT-
-║-*Follow My IG*: ${Instagram1}
+║-*Follow My IG*: ${instagram1}
 ║- *${instagram2}*
 ╠══════════════════⎉
 ╠═════⊱*「 ABOUT 」* 
@@ -1514,161 +1521,6 @@ if (Number(oi2) >= 50) return reply('Kebanyakan!')
 	  }
 }
 	  break
-//NEKOPOI BY YUZZU KAMIYAKA
-             https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
-                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www109.zippyshare.com/d/2ebALhhS/463654/%5bNekoPoi%5d_Watashi_ga_Toriko_-_02%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
-                  break
-                 case 'nekopoi5':
-                 try {
-				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
-				} catch {
-					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
-				}
-				fcrew = await getBuffer(pporang)
-                ini_buffer = await getBuffer("https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
-                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www115.zippyshare.com/d/LmzOkRAI/313299/%5bNekoPoi%5d_Chichi-iro_Toiki_-_01_%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
-                  break
-                 case 'nekopoi6':
-                 try {
-				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
-				} catch {
-					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
-				}
-				fcrew = await getBuffer(pporang)
-                ini_buffer = await getBuffer("https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
-                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www89.zippyshare.com/d/SgEHvrJs/42812/%5bNekoPoi%5d_Chichi-iro_Toiki_-_02_%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
-                  break
-                 case 'nekopoi7':
-                 try {
-				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
-				} catch {
-					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
-				}
-				fcrew = await getBuffer(pporang)
-                ini_buffer = await getBuffer("https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
-                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www66.zippyshare.com/d/j0ivbciL/520411/%5bNekoPoi%5d_Onna_Maou_Melissa_no_H_na_Boukenki_-_01_%5b360P%5d_%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
-                  break
-                 case 'nekopoi8':
-                 try {
-				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
-				} catch {
-					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
-				}
-				fcrew = await getBuffer(pporang)
-                ini_buffer = await getBuffer("https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
-                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www71.zippyshare.com/d/M225YIrR/535656/%5bNekoPoi%5d_Buta_no_Gotoki_Sanzoku_ni_Torawarete_Shojo_wo_Ubawareru_Kyonyuu_Himekishi_Onna_Senshi_-_01%5b360P%5d%5bnekopoi.care%5d.mp4\n\nNOTE SIAPKAN TISU'})
-                  break
-                 case 'nekopoi9':
-                 try {
-				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
-				} catch {
-					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
-				}
-				fcrew = await getBuffer(pporang)
-                ini_buffer = await getBuffer("https://i.pinimg.com/originals/33/3d/a0/333da04b420fbd824381385e6abe248f.jpg")
-                denz.sendMessage(from, fcrew, MessageType.image, {quoted: mek, caption: 'NIH LINKNYA: https://www49.zippyshare.com/d/bdwYjaXS/605790/%5bNekoPoi%5d_Akebi_no_Hana___Maho_-_01_%5b360P%5d_%5bnekopoi.pro%5d.mp4\n\nNOTE SIAPKAN TISU'})
-                  break
-                 case 'kodenuklir':
-			     try {
-				             pporang = 'https://i.ibb.co/ygw3X4P/120450014-395813958192355-7736109081332934145-n.jpg'
-				} catch {
-					          pporang = 'https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg'
-				}
-				fcrew = await getBuffer(pporang)
-				var kodenuk = `Easy Mode :
-• https://nhentai.net/g/316755/
-• https://nhentai.net/g/316596/
-• https://nhentai.net/g/311850/
-• https://nhentai.net/g/315578/
-• https://nhentai.net/g/315488/
-• https://nhentai.net/g/315406/
-• https://nhentai.net/g/315344/
-• https://nhentai.net/g/315323/
-• https://nhentai.net/g/315136/
-• https://nhentai.net/g/315099/
-Medium Mode :
-• https://nhentai.net/g/316867/
-• https://nhentai.net/g/316869/
-• https://nhentai.net/g/316785/
-• https://nhentai.net/g/316763/51/
-• https://nhentai.net/g/316445/
-• https://nhentai.net/g/316250/
-• https://nhentai.net/g/311283/
-• https://nhentai.net/g/265671/
-• https://nhentai.net/g/312127/
-• https://nhentai.net/g/311560/
-Hard Mode :
-• https://nhentai.net/g/316820/
-• https://nhentai.net/g/316481/
-• https://nhentai.net/g/316430/
-• https://nhentai.net/g/276347/
-• https://nhentai.net/g/196329/
-• https://nhentai.net/g/304543/
-• https://nhentai.net/g/295295/
-• https://nhentai.net/g/311262/
-• https://nhentai.net/g/311882/
-• https://nhentai.net/g/312180/
-Note : Easy mode = Sange, Biasa Aja, Mental Lemah :v
-==============================
-Medium Mode = Bisa bikin sange, Lumayan nyesek, Rasanya pengen coli teros, Mental Batu
-==============================
-Hard Mode = Menyebabkan amnesia, insomnia, hipotermia, kejang", serangan jantung, diare, pendarahan hebat, buang air tidak terkendali, rasa ingin baku hantam, frustasi, depresi, emosi tidak tertahan kan, sakit hati (ambyar), Mental Baja
-==============================
-Kode nuklir dr milf oneesan ampe gan***** loli
-https://nhentai.net/g/271890/
-https://nhentai.net/g/272057/
-https://nhentai.net/g/272173/
-https://nhentai.net/g/272182/
-https://nhentai.net/g/272196/
-https://nhentai.net/g/272197/
-https://nhentai.net/g/272259/
-https://nhentai.net/g/272276/
-https://nhentai.net/g/272290/
-https://nhentai.net/g/272377/
--
-https://nhentai.net/g/272390/
-https://nhentai.net/g/272512/
-https://nhentai.net/g/271245/
-https://nhentai.net/g/271056/
-https://nhentai.net/g/270809/
-https://nhentai.net/g/269653/
-https://nhentai.net/g/266088/
-https://nhentai.net/g/264980/
-https://nhentai.net/g/262215/
-https://nhentai.net/g/260433/
--
-https://nhentai.net/g/260146/
-https://nhentai.net/g/256738/
-https://nhentai.net/g/272425/
-https://nhentai.net/g/272352/
-https://nhentai.net/g/272045/
-https://nhentai.net/g/272015/
-https://nhentai.net/g/271993/
-https://nhentai.net/g/271924/
-https://nhentai.net/g/271905/
-https://nhentai.net/g/271797/
--
-https://nhentai.net/g/271760/
-https://nhentai.net/g/271717/
-https://nhentai.net/g/271726/
-https://nhentai.net/g/271667/
-https://nhentai.net/g/267352/
-https://nhentai.net/g/152968/
-https://nhentai.net/g/238876/
-https://nhentai.net/g/116395/
-https://nhentai.net/g/84809/
-https://nhentai.net/g/211656/
--
-https://nhentai.net/g/272117/
-https://nhentai.net/g/188721/
-https://nhentai.net/g/266402/
-https://nhentai.net/g/238876/
-[8/6 10.48] +62 812-8025-1698: Happy Mother's Day 165310,177978,211759,212643,229540, 250029,211519,256097,163478, 91505, 79280, 260629,128051,121972,261633,172044,119055,208323,149942,161236, 177150,233766,97949,230107 ,175822, 213545,232837,179166,138603,130183, 173543,234642,268015,228293,268893, 239536, yg suka mamah
-
-Random
- 257892 226942 236297 216039 221711 245304 166174 175220 244327 191049 220882 244859 227446 259328 259532 259634 259610 259348 258669 256097 118282 260028 260058 259557 259497 122220 260111 260088 259880 258977 260097 259765 259359 260138 259617 107965 197255 260276 260209 260210 260203 191360 191390 248933 257567 227913 211648 210240 260626 259622 257991 213966 260623 149112 257168 198203 114783 220958 244387 243734 223315 118069 136188 260686 241777  260912 142154 119798 261174 258301 256808 169134 220354 260271 261725 261378 252174 261928 114427 187003 147577 249458 157767 224316 175294 258450 233864 236128 261162 174036 187205 210873 193318 110232 199310 193816 220376 193814 193815 219068 220386 177642 188269 181837 220377 119293 257528 258926 262384 105951 259904 208174 249229 245644 262538 234818 216845 149212 134442 135927 262447 261811 261650 261225 261226 260761 250327 192327 167801 150309 123554`
-				denz.sendMessage(from, fcrew, image, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, caption: kodenuk, contextInfo: { forwardingScore: 508, isForwarded: true}})
-				break
 case 'owner':
                     case 'adminbot':
                     case 'creator':
@@ -2256,15 +2108,7 @@ case 'foto': case 'pinterest':
                    reply(`WAIT KAK CANTIK/GANTENG`)
                    anu = await getBuffer(`https://api.zeks.xyz/api/logoaveng?text1=${F1}&text2=${F2}&apikey=apivinz`)
                    denz.sendMessage(from, anu, image, {caption: `nihh kack`, quoted: mek})
-                   break
-                   case 'pornhub':  
-                   if (args.length < 1) return reply(`[❗] CONTOH??\n*${prefix}${command} denz&chan*`)
-                   var F = body.slice(9)
-				   var F1 = F.split("&")[0];
-				   var F2 = F.split("&")[1]; 
-                   reply(`WAIT KAK CANTIK/GANTENG`)
-                   anu = await getBuffer(`https://api.zeks.xyz/api/phlogo?text1=${F1}&text2=${F2}&apikey=apivinz`)
-                   denz.sendMessage(from, anu, image, {caption: `nihh kack`, quoted: mek})
+                   
                    break
 case 'naruto': case 'mikasa': case 'eren': case 'titan': case 'levi': case 'sakura': case 'hinata': case 'neji': 
                     case 'minato': case 'jiraya': case 'tsunade': case 'kiba': case 'boruto': case 'sarada': case 'sasuke': 
