@@ -70,7 +70,7 @@ const { getBuffer, getGroupAdmins, getRandom, start, info, success, close } = re
 const tictactoe = JSON.parse(fs.readFileSync("./database/tictactoe.json"))
 const tttawal = ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 nana = []
-tolol = 6281337541779
+tolol = 6287772343860
 const X = "❌"
 const O = "⭕️"
 const tunjuk = "👈"
@@ -123,6 +123,7 @@ const kontol = 'BEGIN:VCARD\n'
 // APIKEY
 HunterApi = 'Ikyy69'
 lolhuman = 'lolhuman'
+xyz = 'apivinz'
 
 const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 
@@ -461,7 +462,7 @@ console.log(e)
 				});
 			}
 		   const sendFakeStatus = (from, teks, faketeks) => {
-				denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fs.readFileSync('./denz.jpg'), surface: 200, message: `Yuzzu-Bot`, orderTitle: `Yuzzu-Bot`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true }})
+				denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fs.readFileSync('./denz.jpg'), surface: 200, message: `Bot`, orderTitle: `Bot`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true }})
 			}
 			const sendFakeThumb = async function(from, url, title, desc){
 				var anoim = {
@@ -1161,23 +1162,23 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ║    ${tampilUcapan}-${pushname}
 ║▬▭▬▭▬▭▬▭▬▭
 ╠══════════════════⎉
-║*Dirgahayu Republik*
-║*Indonesia 76th🇮🇩*
-║*Indonesia Tangguh*
-║*Indonesia Tumbuh*
+║ *Dirgahayu Republik*
+║ *Indonesia 76th🇮🇩*
+║ *Indonesia Tangguh*
+║ *Indonesia Tumbuh*
 ╠══════════════════⎉
 ║-NO SPAM BOT-
 ║-NO CALL BOT-
-║-*Follow My IG*: ${instagram1}
+║- *Follow My IG: ${instagram1}*
 ║- *${instagram2}*
 ╠══════════════════⎉
 ╠═════⊱*「 ABOUT 」* 
 ║┏━━⊱
 ║┣❏ *${prefix}delete*
-║┣❏ *${prefix}Owner*
-║┣❏ *${prefix}Status*
+║┣❏ *${prefix}owner*
+║┣❏ *${prefix}status*
 ║┣❏ *${prefix}runtime*
-║┣❏ *${prefix}Speed*
+║┣❏ *${prefix}speed*
 ║┗━━⊱
 ╠═════⊱*「 LIST MENU 」* 
 ║┏━━⊱
@@ -1189,10 +1190,10 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ║┣❏ *${prefix}stickermenu*
 ║┣❏ *${prefix}toolsmenu*
 ║┣❏ *${prefix}othermenu*
-║┣❏ *${prefix}nsfwmenu*
 ║┣❏ *${prefix}soundmenu*
 ║┗━━⊱
-╠━━━━*《 ${namabot} 》* `
+╠━━━━*《 ${namabot} 》* 
+╚═══════════════════⎉ `
 				denz.sendMessage(from, fcrew, image, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 0000000000, status: 200, thumbnail: fcrew, surface: 200, message: `${tampilUcapan} ${pushname}\n⎇ ${command}`, orderTitle: ``, sellerJid: '0@s.whatsapp.net'}}}, caption: menusaya, contextInfo: { forwardingScore: 508, isForwarded: true}})
 				break
                 case 'randommenu':
@@ -1214,8 +1215,6 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ▢ ${yuz}${prefix}truth2${yuz}
 ▢ ${yuz}${prefix}dare2${yuz}
 ▢ ${yuz}${prefix}ssweb2${yuz}
-▢ ${yuz}${prefix}spamsms${yuz}
-▢ ${yuz}${prefix}spamtext${yuz}
 ▢ ${yuz}${prefix}koala${yuz}
 ▢ ${yuz}${prefix}meme${yuz}
 ▢ ${yuz}${prefix}ssweb${yuz}
@@ -1237,7 +1236,6 @@ if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.me
 ▢ ${yuz}${prefix}estetikpic${yuz}
 ▢ ${yuz}${prefix}resepmasakan${yuz}
 ▢ ${yuz}${prefix}barcode${yuz}
-▢ ${yuz}${prefix}cersex${yuz}
 ▢ ${yuz}${prefix}cerpen${yuz}
 ▢ ${yuz}${prefix}tongue${yuz}
 ▢ ${yuz}${prefix}artijadian${yuz}
@@ -1531,9 +1529,9 @@ case 'owner':
 				}
 				yuz = await getBuffer(pporang)
                     denz.sendMessage(from, {displayname: "Jeff", vcard: kontol}, MessageType.contact, { quoted: mek})
-                  denz.sendMessage(from, 'INI NIH KONTAK PACAR SAYA [(>_<)] EH MAKSUDNYA OWNER',MessageType.text, { quoted: mek} )
+                  denz.sendMessage(from, 'INI NIH KONTAK  OWNER',MessageType.text, { quoted: mek} )
                   ini_buffer = await getBuffer("https://i.pinimg.com/originals/67/8a/24/678a2407f7d645c43d89f3905189c2dd.jpg")
-                  denz.sendMessage(from, yuz, MessageType.image, {quoted: mek, caption: `HAI ${pushname}\nJANGAN LUPA YA[(>_<)] MAMPIR KESINI\nhttps://youtube.com/channel/UC785k6aON7xNBIM1YP9FBIw\n\nBANTU SUBSCRIBE DONG KAK ${pushname}😆`})
+                  denz.sendMessage(from, yuz, MessageType.image, {quoted: mek, caption: `HAI ${pushname}\nJANGAN LUPA YA[(>_<)] MAMPIR KESINI\n*${instragram2}\n\nBANTU Follow DONG KAK ${pushname}😆`})
                   break
 //CASE RIMURUBOTZ/NAYLA
                  case 'tebakgambar':  
@@ -1561,7 +1559,7 @@ case 'owner':
                     setTimeout( () => {
                     denz.sendMessage(from, anu2, text,{quoted: mek})                   
                     }, 60000)                                                                          
-                    break
+                  break
                      case 'quotesnime':  
                     anu = await fetchJson(`https://videfikri.com/api/anime/randomquoteanime`)
                     anu1 = `➻ *ANIME* : ${anu.result.anime}\n`
@@ -2106,7 +2104,7 @@ case 'foto': case 'pinterest':
 				   var F1 = F.split("&")[0];
 				   var F2 = F.split("&")[1]; 
                    reply(`WAIT KAK CANTIK/GANTENG`)
-                   anu = await getBuffer(`https://api.zeks.xyz/api/logoaveng?text1=${F1}&text2=${F2}&apikey=apivinz`)
+                   anu = await getBuffer(`https://api.zeks.xyz/api/logoaveng?text1=${F1}&text2=${F2}&apikey=${xyz}`)
                    denz.sendMessage(from, anu, image, {caption: `nihh kack`, quoted: mek})
                    
                    break
@@ -2128,14 +2126,14 @@ case 'naruto': case 'mikasa': case 'eren': case 'titan': case 'levi': case 'saku
 				   var F1 = F.split("&")[0];
 				   var F2 = F.split("&")[1]; 
                    reply(`WAIT KAK CANTIK/GANTENG`)
-                   anu = await getBuffer(`https://api.zeks.xyz/api/marvellogo?text1=${F1}&text2=${F2}&apikey=apivinz`)
+                   anu = await getBuffer(`https://api.zeks.xyz/api/marvellogo?text1=${F1}&text2=${F2}&apikey=${xyz}`)
                    denz.sendMessage(from, anu, image, {caption: `nihh kack`, quoted: mek})
                    break
                    case 'leavest':  
                    if (args.length < 1) return reply(`[❗] CONTOH??\n*${prefix}${command} denz*`)
                    F = body.slice(9)
                    reply(`WAIT KAK CANTIK/GANTENG`)
-                   anu = await getBuffer(`https://api.zeks.xyz/api/leavest?text=${F}&apikey=apivinz`)
+                   anu = await getBuffer(`https://api.zeks.xyz/api/leavest?text=${F}&apikey=${xyz}`)
                    denz.sendMessage(from, anu, image, {caption: `nihh kack`, quoted: mek})
                    break
 //
@@ -2250,21 +2248,21 @@ case 'naruto': case 'mikasa': case 'eren': case 'titan': case 'levi': case 'saku
 				   var F1 = F.split("&")[0];
 				   var F2 = F.split("&")[1]; 
                    reply(`WAIT KAK CANTIK/GANTENG`)
-                   anu = await getBuffer(`https://api.zeks.xyz/api/phub?apikey=apivinz&img=https://1.bp.blogspot.com/-x8KhcOBG-yw/XiU4pi1yWVI/AAAAAAAADBA/gK8tsLyc1lQ808A348IKzDCjf6fUBKONwCLcBGAsYHQ/s1600/cara%2Bbuat%2Bfoto%2Bprofil%2Bdi%2Bwhatsapp%2Bmenjadi%2Bunik.jpg&username=${F1}&msg=${F2}`)
+                   anu = await getBuffer(`https://api.zeks.xyz/api/phub?apikey=${xyz}&img=https://1.bp.blogspot.com/-x8KhcOBG-yw/XiU4pi1yWVI/AAAAAAAADBA/gK8tsLyc1lQ808A348IKzDCjf6fUBKONwCLcBGAsYHQ/s1600/cara%2Bbuat%2Bfoto%2Bprofil%2Bdi%2Bwhatsapp%2Bmenjadi%2Bunik.jpg&username=${F1}&msg=${F2}`)
                    denz.sendMessage(from, anu, image, {caption: `nihh kack`, quoted: mek})
                    break
                    case 'nulis':  
                    if (args.length < 1) return reply(`[❗] CONTOH??\n*${prefix}${command} denz*`)
                    F = body.slice(7)
                    reply(`WAIT KAK CANTIK/GANTENG`)
-                   anu = await getBuffer(`https://api.zeks.xyz/api/nulis?text=${F}&apikey=apivinz`)
+                   anu = await getBuffer(`https://api.zeks.xyz/api/nulis?text=${F}&apikey=${xyz}`)
                    denz.sendMessage(from, anu, image, {caption: `nihh kack`, quoted: mek})
                    break
                    case 'shortener':  
                    if (args.length < 1) return reply(`[❗] CONTOH??\n*${prefix}${command}https://link*`)
                    F = body.slice(11)
                    reply(`WAIT KAK CANTIK/GANTENG`)                   
-                   anu = await fetchJson(`https://api.zeks.xyz/api/sid-shortener?apikey=apivinz&url=${F}`)
+                   anu = await fetchJson(`https://api.zeks.xyz/api/sid-shortener?apikey=${xyz}&url=${F}`)
                    anu1 = `➻ *SHORT* : ${anu.short}\n`
                    anu1 += `➻ *LONG* : ${anu.long}\n`
                    anu1 += `➻ *DATE* : ${anu.created_at.date}\n`
@@ -2276,7 +2274,7 @@ case 'naruto': case 'mikasa': case 'eren': case 'titan': case 'levi': case 'saku
                    if (args.length < 1) return reply(`[❗] CONTOH??\n*${prefix}${command}https://link*`)
                    F = body.slice(10)
                    reply(`WAIT KAK CANTIK/GANTENG`)                                      
-                   anu = await fetchJson(`https://api.zeks.xyz/api/urlshort-all?apikey=apivinz&url=${F}`)
+                   anu = await fetchJson(`https://api.zeks.xyz/api/urlshort-all?apikey=${xyz}&url=${F}`)
                    anu1 = `➻ *SATU* : ${anu.result_1}\n`
                    anu1 += `➻ *DUA* : ${anu.result_2}\n`
                    anu1 += `➻ *TIGA* : ${anu.result_3}\n`
@@ -3722,13 +3720,7 @@ case 'ig':
 					const authorPack = exifff.split('|')[1]
 					exif.create(namaPack, authorPack)
 					await reply('Done gan')
-				break
-case 'beliapi':        	
-                    beliapi = `[ *API SC* ]\n`
-                    beliapi += `➻ *LOLHUMAN* : wa.me/62895418200111\n`
-                    beliapi += `➻ *HUNTER* : wa.me/6281313505348\n`
-                    beliapi += `➻ *XTEAM* : wa.me/6281946983575\n`
-                    reply(beliapi)
+				
                     break
 				case 'sticker':
 					case 'stiker':
@@ -3786,7 +3778,7 @@ case 'beliapi':
 									.toFormat('webp')
 									.save(`./sticker/${sender}.webp`)
 						} else {
-							reply(`Kirim gambar/video dengan caption ${prefix}sticker atau tag gambar/video yang sudah dikirim\nNote : Durasi video maximal 10 detik`)
+							reply(`Kirim gambar dengan caption ${prefix}sticker atau tag gambar yang sudah dikirim`)
 						}
 						break
 					case 'stickerwm':
@@ -3856,7 +3848,7 @@ case 'beliapi':
 									.toFormat('webp')
 									.save(`./sticker/${sender}.webp`)
 						} else {
-							reply(`Kirim gambar/video dengan caption ${prefix}stickerwm nama|author atau tag gambar/video yang sudah dikirim\nNote : Durasi video maximal 10 detik`)
+							reply(`Kirim gambar dengan caption ${prefix}stickerwm nama|author atau tag gambar yang sudah dikirim`)
 						}
 						break
 					case 'takestick':
